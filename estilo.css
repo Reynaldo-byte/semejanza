@@ -16,7 +16,7 @@ button:hover{
                 font-size: 22px;
                 border: groove 4px red;
 }
-.descarga::before{
+#descarga::before{
   content: "🡇";
   width: 20px;
   height: 20px;
