@@ -16,6 +16,16 @@ button:hover{
                 font-size: 22px;
                 border: groove 4px red;
 }
+.descarga::before{
+  content: "🡇";
+  width: 20px;
+  height: 20px;
+  margin-left:-22px;
+  margin-top: -3px;
+  position:absolute;
+  animation-name: dwld;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;}
 div{
 	border-radius: 1.5rem;
 	  margin: 0 auto;
